@@ -112,7 +112,9 @@ npm run dev
 
 # 4 位量化可以显著减少内存需求
 
-python server.py --model deepseek-r1-chat --quantize 4bit --port 8000 2. 调整批处理大小：
+python server.py --model deepseek-r1-chat --quantize 4bit --port 8000 
+
+2. 调整批处理大小：
 
 # 根据 GPU 内存调整批处理大小
 
@@ -190,9 +192,9 @@ python server.py --model deepseek-r1-chat --use-flash-attn --port 8000
 ▪ 计算总拥有成本并与云服务比较
 ▪ 考虑长期维护和升级需求
 通过本地部署 DeepSeek R1，你可以获得更高的隐私保护、更快的响应速度和更大的自由度，但这也需要相应的技术能力和硬件投入。随着技术的发展，本地部署将变得越来越简单和高效，为更多用户带来 AI 的强大能力。
-8.2 调用 DeepSeek API 实现自动化工作
+## 8.2 调用 DeepSeek API 实现自动化工作
 API（应用程序编程接口）是连接不同软件系统的桥梁，通过调用 DeepSeek API，你可以将 AI 能力无缝集成到现有工作流程中，实现自动化和个性化定制。本节将探讨 DeepSeek API 的工作原理、使用场景和最佳实践。
-8.2.1 什么是 API？它如何工作
+### 8.2.1 什么是 API？它如何工作
 在深入探讨 DeepSeek API 之前，让我们先了解 API 的基本概念和工作原理。
 API 基础概念
 API（Application Programming Interface，应用程序编程接口）是一组定义了软件组件之间交互方式的规则和协议。简单来说，API 就像餐厅里的服务员，它接收你的请求（点餐），将请求传递给厨房（服务器），然后将结果（食物）带回给你。
