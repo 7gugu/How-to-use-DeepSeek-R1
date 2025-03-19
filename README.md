@@ -305,5 +305,3 @@
 
 ![https://i.v2ex.co/jznYNGupl.jpeg](https://i.v2ex.co/jznYNGupl.jpeg)
 ![https://i.v2ex.co/sG0tlwG5l.jpeg](https://i.v2ex.co/sG0tlwG5l.jpeg)
-
-> 本书所有的内容都是Claude 3.7 Sonnet写的， AI Helps AI，除了README是我写的之外，目录也是直接抄的。
